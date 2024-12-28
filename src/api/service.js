@@ -74,44 +74,44 @@ const Services = [
     {
         Id: '6',
         sImg:icon1,
-        title: 'Custom Software Development',
-        slug: 'Custom Software Development',
-        features: ['Software architecture design', 'System integration services', 'Data migration services', 'Legacy app modernization']
+        title: 'Software Development',
+        slug: 'Software Development',
+        features: ['Custom Application Development', 'Software Architecture Design', 'System Integration Services', 'Data Migration Services','Legacy Application Modernization']
     },
     {
         Id: '7',
         sImg:icon2,
-        title: 'Audit & IT Consulting Services',
-        slug: 'Audit-&-IT-Consulting-Services',
-        features: ['TechGuard Audit', 'CyberSafe Audit & IT Consulting', 'AssuranceEdge & IT Consulting', 'IT Sentry Audit & IT Consulting']
+        title: 'Mobile App Development',
+        slug: 'Mobile App Development',
+        features: ['Android and iOS App Development', 'Cross-Platform Mobile Solutions', 'Enterprise Mobile App Development', 'Mobile Application Design Services']
     },
     {
         Id: '8',
         sImg:icon3,
-        title: 'Web Application Design and Development',
-        slug: 'Web-Application-Design-and-Development',
-        features: ['Web app development services', 'Web portal development services', 'Website development services', 'Offshore web development']
+        title: 'Software Testing',
+        slug: 'Software Testing',
+        features: ['Quality Assurance Services', 'Automated and Manual Testing', 'Performance and Load Testing', 'Security Testing']
     },
     {
         Id: '9',
         sImg:icon4,
-        title: 'Mobile App Design and Development',
-        slug: 'Mobile-App-Design-and-Development',
-        features: ['Android development services', 'iOS app development services', 'Mobile application design services', 'Enterprise mobile app development']
+        title: 'UI/UX Design',
+        slug: 'UI/UX Design',
+        features: ['User Interface Design', 'User Experience Optimization', 'Creative Design Solutions', 'Responsive Web Design']
     },
     {
         Id: '10',
         sImg:icon5,
-        title: 'Best UI/UX Design Services',
-        slug: 'Best-UI/UX-Design-Services',
-        features: ['PixelPerfection UI/UX Design', 'DesignCraft UI/UX Design', 'CreativeWave UI/UX Design', 'InterfaceGenius UI/UX Design']
+        title: 'SEO and Digital Marketing',
+        slug: 'SEO and Digital Marketing',
+        features: ['Search Engine Optimization', 'Social Media Marketing', 'Content Marketing', 'Pay-Per-Click Advertising']
     },
     {
         Id: '11',
         sImg:icon6,
-        title: 'Maintenance and Customer Support',
-        slug: 'Maintenance-and-Customer-Support',
-        features: ['CareCraft Maintenance', 'FixItPro Maintenance', 'TechCare Maintenance', 'AssistEdge Maintenance']
+        title: 'Software Maintenance',
+        slug: 'Software Maintenance',
+        features: ['Ongoing Software Maintenance', 'Technical Support Services', 'System Upgrades and Enhancements', 'Bug Fixing and Performance Optimization']
     },
     {
         Id: '12',
