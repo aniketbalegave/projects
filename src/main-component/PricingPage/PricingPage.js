@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom'
-import Header from '../../components/header/Header';
+// import Header from '../../components/header/Header';
+import Header2 from '../../components/Header2/Header2';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
@@ -24,7 +25,7 @@ const PricingPage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Pricing Plan'} pagesub={'Pricing 😍'} pageTop={'Our'} />
                 <PolicySection />

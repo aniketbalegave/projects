@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
-import Header from '../../components/header/Header';
+// import Header from '../../components/header/Header';
+import Header2 from '../../components/Header2/Header2';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
@@ -20,7 +21,7 @@ const AboutUsPage = (props) => {
     const [isOpen, setOpen] = useState(false)
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'About Us'} pageTop={'About'}/>
                 <section className="intro_about_section section_space bg-light">
@@ -69,7 +70,7 @@ const AboutUsPage = (props) => {
                 </section>
                 <PolicySection />
                 <FeaturesSection />
-                <TeamSection />
+                {/* <TeamSection /> */}
                 <WhyUs />
                 <CtaSection />
             </main>

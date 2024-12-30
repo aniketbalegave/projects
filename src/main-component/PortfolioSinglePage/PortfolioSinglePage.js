@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import Header from '../../components/header/Header';
+// import Header from '../../components/header/Header';
+import Header2 from '../../components/Header2/Header2';
 import Project from '../../api/project';
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';
@@ -21,7 +22,7 @@ const PortfolioSinglePage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content about-page">
                 <PageTitle pageTitle={PortfolioDetails.title} pagesub={'Details 😃'} pageTop={'Portfolio'} />
                 <section className="portfolio_details_section section_space bg-light">

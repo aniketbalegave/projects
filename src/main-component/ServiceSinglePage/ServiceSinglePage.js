@@ -2,7 +2,8 @@ import React, { Fragment, useState } from 'react';
 import Services from '../../api/service'
 import { useParams } from 'react-router-dom'
 import ModalVideo from 'react-modal-video'
-import Header from '../../components/header/Header';
+// import Header from '../../components/header/Header';
+import Header2 from '../../components/Header2/Header2';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
@@ -25,7 +26,7 @@ const ServiceSinglePage = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <main className="page_content service-single-page">
                 <PageTitle pageTitle={ServiceDetails.title} pagesub={'Details 😍'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
@@ -40,7 +41,8 @@ const ServiceSinglePage = (props) => {
                         </div>
                         <h2 className="details_item_title">{ServiceDetails.title}</h2>
                         <p align="justify">
-                            {ServiceDetails.title} is essential for modern businesses, providing tailored solutions that address unique operational needs. At our software development agency, we specialize in creating reliable and scalable applications designed to enhance efficiency, security, and growth. Whether you are a small startup or a large enterprise, we understand the importance of bespoke software solutions that align with your business goals. Our team of skilled professionals works closely with you to develop high-quality applications that drive success.
+                        In the fast-paced world of mobile technology, businesses must stay ahead by offering seamless and innovative mobile applications that enhance user engagement and drive success. At our IT solution agency, we specialize in creating customized mobile apps that are not only functional but also provide exceptional user experiences. Whether you're a startup or an established enterprise, our team works to understand your unique business needs and deliver mobile solutions that foster growth, efficiency, and customer satisfaction.
+
                         </p>
                         <p align="justify">
                         We take a comprehensive approach to software development, considering factors such as user experience, system architecture, scalability, and future business needs. By utilizing industry best practices and the latest technologies, we deliver innovative solutions designed to evolve with your business.

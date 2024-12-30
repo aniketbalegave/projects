@@ -63,15 +63,15 @@ const Header2 = (props) => {
                             <nav className="main_menu navbar navbar-expand-lg">
                                 <div className="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
                                     <ul className="main_menu_list unordered_list justify-content-center">
-                                        <li className="dropdown">
+                                        <li className="">
                                             <Link onClick={ClickHandler} className="nav-link" to="/" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Home
                                             </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="home_submenu">
+                                            {/* <ul className="dropdown-menu" aria-labelledby="home_submenu">
                                                 <li><Link onClick={ClickHandler} to="/">IT Solution</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home_software_company">Software Company</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home_business_consulting">Business Consulting</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="dropdown">
                                             <Link onClick={ClickHandler} className="nav-link" to="/" id="company_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -135,7 +135,7 @@ const Header2 = (props) => {
                                                                             </span>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
+                                                                    {/* <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/team">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
@@ -160,7 +160,7 @@ const Header2 = (props) => {
                                                                                 We are friendly Join our team
                                                                             </span>
                                                                         </Link>
-                                                                    </div>
+                                                                    </div> */}
                                                                     <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/service">
                                                                             <span className="icon_title_wrap">
@@ -282,52 +282,52 @@ const Header2 = (props) => {
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
                                                                                     <span className="icon_list_text">
-                                                                                        IT Management Services
+                                                                                       Software Development 
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/Data-Tracking-and-Security">
                                                                                     <span className="icon_list_text">
-                                                                                        Data Tracking Security
+                                                                                        Mobile App Development
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
                                                                                     <span className="icon_list_text">
-                                                                                        Website Development
+                                                                                        Software Testing
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
                                                                                     <span className="icon_list_text">
-                                                                                        CRM Solutions and Design
+                                                                                        UI/UX Design
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
                                                                                     <span className="icon_list_text">
-                                                                                        UI/UX Design Services
+                                                                                        SEO and Digital Marketing
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
                                                                                     <span className="icon_list_text">
-                                                                                        Technology Solution
+                                                                                        Software Maintenance
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
-                                                                            <li>
+                                                                            {/* <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
                                                                                     <span className="icon_list_text">
                                                                                         Software Development
                                                                                     </span>
                                                                                 </Link>
-                                                                            </li>
+                                                                            </li> */}
                                                                         </ul>
                                                                     </div>
                                                                 </div>

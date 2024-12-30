@@ -24,8 +24,8 @@ const Services = [
     {
         Id: '1',
         sImg:sImg1,
-        title: 'IT Management Services',
-        slug: 'IT-Management-Services',
+        title: 'Software Development',
+        slug: 'Software Development',
         thumb1:'Strategy',
         thumb2:'Consultation',
         col:'col-lg-6',
@@ -34,8 +34,8 @@ const Services = [
     {
         Id: '2',
         sImg:sImg2,
-        title: 'Data Tracking and Security',
-        slug: 'Data-Tracking-and-Security',
+        title: 'Mobile App Development',
+        slug: 'Mobile App Developmenty',
         thumb1:'Management',
         thumb2:'Transfer',
         col:'col-lg-6',
@@ -44,8 +44,8 @@ const Services = [
     {
         Id: '3',
         sImg:sImg3,
-        title: 'Website Development',
-        slug: 'Website-Development',
+        title: 'Software Testing',
+        slug: 'Software Testing',
         thumb1:'Landing Page',
         thumb2:'Plugins',
         col:'col-lg-4',
@@ -54,8 +54,8 @@ const Services = [
     {
         Id: '4',
         sImg:sImg4,
-        title: 'Modern Technology Solution',
-        slug: 'Modern-Technology-Solution',
+        title: 'UI/UX Design',
+        slug: 'UI/UX Design',
         thumb1:'Consultation',
         thumb2:'solution',
         col:'col-lg-4',
@@ -64,8 +64,8 @@ const Services = [
     {
         Id: '5',
         sImg:sImg5,
-        title: 'UI/UX Design Services',
-        slug: 'UI-UX-Design-Services',
+        title: 'SEO and Digital Marketing',
+        slug: 'SEO and Digital Marketing',
         thumb1:'Website',
         thumb2:'Mobile App',
         col:'col-lg-4',
@@ -74,8 +74,8 @@ const Services = [
     {
         Id: '6',
         sImg:icon1,
-        title: 'Software Development',
-        slug: 'Software Development',
+        title: 'Software Maintenance',
+        slug: 'Software Maintenance',
         features: ['Custom Application Development', 'Software Architecture Design', 'System Integration Services', 'Data Migration Services','Legacy Application Modernization']
     },
     {
