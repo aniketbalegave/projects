@@ -16,7 +16,7 @@ import srImg4 from '../../images/services/service_4.png'
 import icon from '../../images/icons/icon_check_3.svg'
 
 
-const ServiceSinglePage = (props) => {
+const MobileAppDevelopment = (props) => {
 
     const { slug, page } = useParams()
 
@@ -28,7 +28,7 @@ const ServiceSinglePage = (props) => {
         <Fragment>
             <Header2 />
             <main className="page_content service-single-page">
-                <PageTitle pageTitle={ServiceDetails.title} pagesub={'Details 😍'} pageTop={'Services'} />
+                <PageTitle pageTitle="Mobile App Development" pagesub={'Details 😍'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
                     <div className="container">
                         <div className="details_item_image position-relative">
@@ -137,4 +137,4 @@ const ServiceSinglePage = (props) => {
         </Fragment>
     )
 };
-export default ServiceSinglePage;
+export default MobileAppDevelopment;

@@ -31,8 +31,11 @@ const ContactSection = (props) => {
                             </div>
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Contact</h3>
-                                <p className="mb-0">+91 9284 0732 11   </p>
-                                {/* <div className="mb-0">+88(0) 555-01117</div> */}
+                                <p className="mb-0">
+                                <a href="tel:+919284073211" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    +(91) 9284073211
+                                </a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -43,8 +46,11 @@ const ContactSection = (props) => {
                             </div>
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Email</h3>
-                                <p className="mb-0">info@shreerevatech.com</p>
-                                {/* <p className="mb-0">gmail.@example.com</p> */}
+                                <p className="mb-0">
+                                <a href="mailto:info@shreerevatech.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    info@shreerevatech.com
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +80,18 @@ const ContactSection = (props) => {
                         </div>
                         <div className="col-lg-5">
                             <div className="gmap_canvas ps-lg-5">
-                                <iframe title='map' src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                            <a 
+            href="https://www.google.com/maps/search/?api=1&query=Near+Lagad+Transport,+Nanded+City,+Pune+411041" 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            <iframe 
+                title="map" 
+                src="https://www.google.com/maps/search/?api=1&query=Near+Lagad+Transport,+Nanded+City,+Pune+411041"
+                style={{ pointerEvents: "none" }} // Prevent interaction inside the iframe
+            ></iframe>
+        </a>
+
                             </div>
                         </div>
                     </div>

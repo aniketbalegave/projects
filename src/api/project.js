@@ -110,8 +110,8 @@ const Project = [
     {
         Id: '10',
         pImg: pImg7,
-        title: 'Driving Digital Transformation Explore the Depth of Our IT Projects',
-        slug: 'Driving-Digital-Transformation-Explore-the-Depth-of-Our-IT Projects',
+        title: 'We Offer Comprehensive Financial Solutions Tailored Strategies for Your Financial Growth and Security',
+        slug: 'We Offer Comprehensive Financial Solutions Tailored Strategies for Your Financial Growth and Security',
         thumb1: 'Logo Design',
         thumb2: 'Finance',
         category: 'technology',
@@ -119,8 +119,8 @@ const Project = [
     {
         Id: '17',
         pImg: pImg8,
-        title: 'Explore Our IT Solutions Portfolio for Public Sector Organizations',
-        slug: 'Explore-Our-IT-Solutions',
+        title: 'Your Trusted Partner for Local and Global Business Development',
+        slug: 'Your Trusted Partner for Local and Global Business Development',
         thumb1: 'App Design',
         thumb2: 'Public',
         category:'helpdesk'
@@ -128,8 +128,8 @@ const Project = [
     {
         Id: '18',
         pImg: pImg9,
-        title: 'Innovative Solutions Showcase the Diversity of Our IT Portfolio',
-        slug: 'Innovative-Solutions-Showcase-the-Diversity-of-Our-IT-Portfolio',
+        title: 'Welcome to Webducts: Where Creativity Meets Excellence',
+        slug: 'Welcome to Webducts: Where Creativity Meets Excellence',
         thumb1: 'Card Design',
         thumb2: 'Transpiration',
         category:'analysis'
@@ -137,8 +137,8 @@ const Project = [
     {
         Id: '19',
         pImg: pImg10,
-        title: 'Tech Triumphs Celebrating Our Achievements in IT Solutions',
-        slug: 'Tech-Triumphs-Celebrating-Our-Achievements-in-IT-Solutions',
+        title: 'Where Precision Meets Care: Your Trusted Pathology Partner in Parbhani',
+        slug: 'Where Precision Meets Care: Your Trusted Pathology Partner in Parbhani',
         thumb1: 'Web Design',
         thumb2: 'Logistic',
         category: 'technology',

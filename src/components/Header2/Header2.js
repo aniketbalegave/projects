@@ -16,6 +16,7 @@ import icon11 from '../../images/icons/icon_quote.svg'
 import logo1 from '../../images/site_logo/logo-2.webp'
 import cases from '../../images/case/case_image_4.webp'
 import MobileMenu from '../MobileMenu/MobileMenu'
+import MobileAppDevelopment from '../../main-component/ServiceSinglePage/MobileAppDevelopment';
 
 const Header2 = (props) => {
 
@@ -54,8 +55,8 @@ const Header2 = (props) => {
                         <div className="col-xl-3 col-lg-2 col-5">
                             <div className="site_logo">
                                 <Link onClick={ClickHandler} className="site_link" to="/">
-                                    <img src={logo1} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
-                                    {/* <img src={logo2} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" /> */}
+                                    <img src={logo1} alt="Site Logo – Shree RevaTech – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
+                                    <img src={logo1} alt="Site Logo – Shree RevaTech – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
                                 </Link>
                             </div>
                         </div>
@@ -287,7 +288,7 @@ const Header2 = (props) => {
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/Data-Tracking-and-Security">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Mobile-App-Development">
                                                                                     <span className="icon_list_text">
                                                                                         Mobile App Development
                                                                                     </span>

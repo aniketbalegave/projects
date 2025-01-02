@@ -7,6 +7,7 @@ import AboutUsPage from '../AboutUsPage/AboutUsPage';
 import PricingPage from '../PricingPage/PricingPage';
 import PortfolioPage from '../PortfolioPage/PortfolioPage';
 import PortfolioSinglePage from '../PortfolioSinglePage/PortfolioSinglePage';
+
 import TeamPage from '../TeamPage/TeamPage';
 import TeamSinglePage from '../TeamSinglePage/TeamSinglePage';
 import ServicePage from '../ServicePage/ServicePage';
@@ -14,6 +15,7 @@ import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 import BlogPage from '../BlogPage/BlogPage';
 import BlogDetails from '../BlogDetails/BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
+import MobileAppDevelopment from '../ServiceSinglePage/MobileAppDevelopment';
 
 const AllRoute = () => {
 
@@ -29,10 +31,16 @@ const AllRoute = () => {
           <Route path="pricing" element={<PricingPage />} />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="portfolio_details/:slug" element={<PortfolioSinglePage />} />
+  
           {/* <Route path="team" element={<TeamPage />} /> */}
           <Route path="team-single/:slug" element={<TeamSinglePage />} />
           <Route path="service" element={<ServicePage />} />
-          <Route path="service-single/:slug" element={<ServiceSinglePage />} />
+          <Route path="service-single/:slug/:page" element={<ServiceSinglePage />} />
+          <Route path="service-single/:slug/:page" element = {<MobileAppDevelopment />} />
+          <Route path="" element = {<></>} />
+          <Route path="" element = {<></>} />
+          <Route path="" element = {<></>} />
+          <Route path="" element = {<></>} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
           <Route path="contact" element={<ContactPage />} />  

@@ -8,7 +8,7 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import psImg from '../../images/portfolio/portfolio_details_image1.png'
+import psImg from '../../images/portfolio/portfolio_item_image4.png'
 import icon from '../../images/icons/icon_check_3.svg'
 
 
@@ -30,28 +30,35 @@ const PortfolioSinglePage = (props) => {
                         <div className="details_item_image">
                             <img src={psImg} alt="Portfolio Item" />
                         </div>
-                        <h2 className="details_item_title">Cloud Migration and Integration Project</h2>
-                        <p>
-                            The "Cloud Migration and Integration Project" represents a pivotal step for our client's digital transformation journey. By transitioning from traditional on-premises infrastructure to cloud-based solutions, we are unlocking a world of possibilities, from scalability and flexibility to enhanced security and cost efficiency. Our meticulous planning and execution ensure a smooth migration process, with minimal disruption to business operations. From assessing the current environment to preparing the infrastructure, migrating data and applications.
+                        <h2 className="details_item_title"> Tailored Strategies for Your Financial Growth and Security</h2>
+                        <p align="justify">
+                        At Aaya Financial Advisory, we simplify the world of investing, offering customized strategies to help you achieve your financial goals. Whether you’re new to investing or looking to enhance your portfolio, our expert guidance ensures a seamless journey toward wealth creation and financial independence.
                         </p>
-                        <p className="mb-0">
-                            providing comprehensive training and support, we leave no stone unturned in ensuring the success of this project. With our expertise and dedication, we empower our client to embrace the full potential of cloud computing, driving innovation.
+                        <h4 className="details_item_title">Who We Are                        </h4>
+                        <p className="mb-0" align="justify">
+                        With over 10 years of experience, Rajesh Ji specializes in guiding individuals through the intricacies of equity cash and compounding strategies. We understand that starting your investment journey can be overwhelming, but with our expertise, we make it simple and effective.
                         </p>
                         <hr />
                         <ul className="portfolio_details_info_list icon_list unordered_list justify-content-lg-between mb-5">
                             <li>
                                 <span className="icon_list_text">
-                                    <strong className="text-dark text-uppercase">Services:</strong>
-                                    Cloud Migration
+                                    <strong className="text-dark text-uppercase">Equity Cash : </strong>
+                                    Invest directly in company stocks to build a strong portfolio.
+
                                 </span>
                             </li>
                             <li>
                                 <span className="icon_list_text">
-                                    <strong className="text-dark text-uppercase">Client:</strong>
-                                    Shree RevaTech
+                                    <strong className="text-dark text-uppercase">Compounding : </strong>
+                                    Reinvest profits to allow your money to grow exponentially over time.
                                 </span>
                             </li>
-                            <li>
+
+                            <p className="mb-0" align="justify">
+                            Our proven methods consistently deliver results, empowering clients to create long-term wealth and secure their financial future.
+                        </p>
+
+                            {/* <li>
                                 <span className="icon_list_text">
                                     <strong className="text-dark text-uppercase">Location:</strong>
                                    Pune
@@ -62,13 +69,13 @@ const PortfolioSinglePage = (props) => {
                                     <strong className="text-dark text-uppercase">Completed Date:</strong>
                                     20-12-2024
                                 </span>
-                            </li>
+                            </li> */}
                         </ul>
 
-                        <h3 className="details_item_info_title pt-4">Project Requirement</h3>
-                        <p>
+                        <h3 className="details_item_info_title pt-4">Why Choose Us?                        </h3>
+                        {/* <p>
                             In this phase of the Cloud Migration and Integration project, our focus is on executing robust data migration strategies to ensure the seamless transfer of data from on-premises servers to cloud storage solutions. Leveraging advanced techniques and tools,
-                        </p>
+                        </p> */}
                         <div className="row mb-4">
                             <div className="col-lg-5">
                                 <ul className="icon_list unordered_list_block">
@@ -77,7 +84,7 @@ const PortfolioSinglePage = (props) => {
                                             <img src={icon} alt="Check SVG Icon" />
                                         </span>
                                         <span className="icon_list_text">
-                                            Comprehensive Assessment Phase
+                                        A decade of hands-on experience in financial markets.
                                         </span>
                                     </li>
                                     <li>
@@ -85,18 +92,18 @@ const PortfolioSinglePage = (props) => {
                                             <img src={icon} alt="Check SVG Icon" />
                                         </span>
                                         <span className="icon_list_text">
-                                            Strategic Migration Plan Development
+                                        Tailored investment strategies to suit individual goals.
                                         </span>
                                     </li>
                                     <li>
                                         <span className="icon_list_icon">
                                             <img src={icon} alt="Check SVG Icon" />
                                         </span>
-                                        <span className="icon_list_text">
-                                            Robust Data Migration Strategies
+                                        <span className="icon_list_text" align ="justify">
+                                        Transparent and reliable guidance for beginners and seasoned investors alike.
                                         </span>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <span className="icon_list_icon">
                                             <img src={icon} alt="Check SVG Icon" />
                                         </span>
@@ -139,18 +146,17 @@ const PortfolioSinglePage = (props) => {
                                         <span className="icon_list_text">
                                             Post-migration Support
                                         </span>
-                                    </li>
+                                    </li> */}
                                 </ul>
+                                
                             </div>
                         </div>
 
-                        <h3 className="details_item_info_title pt-4">Solution & Result</h3>
-                        <p>
-                            The successful execution of robust data migration strategies ensures the seamless transfer of data from on-premises servers to cloud storage solutions. Data integrity, security, and regulatory compliance are prioritized throughout the migration process. Rigorous testing and validation verify the accuracy and completeness of data migration, minimizing downtime and data loss risks.
+                        <h3 className="details_item_info_title pt-4">Take the First Step Today!                        </h3>
+                        <p align ="justify">
+                        The share market holds immense potential to grow your wealth—let us show you how. Connect with Rajendra Ji Financial Advisory today and embark on a journey toward financial success. Together, we’ll create a strategy that works for you.
                         </p>
-                        <p>
-                            To achieve successful data migration, our solution includes a comprehensive approach that encompasses meticulous planning, advanced techniques, and thorough testing. We leverage industry-leading tools and expertise.
-                        </p>
+                       <h4>Start investing today and secure a prosperous tomorrow!                       </h4>
 
                         <h3 className="details_item_info_title pt-5 mb-4">Our Similar Projects</h3>
                         <div className="row">

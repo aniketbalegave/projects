@@ -29,7 +29,9 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                info@shreerevatech.com
+                                <a href="mailto:info@shreerevatech.com" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    info@shreerevatech.com
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -40,7 +42,9 @@ const Footer = (props) => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title"> Call Us (IND)</h3>
                                 <p className="mb-0">
+                                <a href="tel:+919284073211" style={{ textDecoration: 'none', color: 'inherit' }}>
                                     +(91) 9284073211
+                                </a>
                                 </p>
                             </div>
                         </div>
@@ -52,7 +56,12 @@ const Footer = (props) => {
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
                                 Office No 003,
-                                <p> Near Lagad Transport, Nanaded City Pune 411041                                </p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Near+Lagad+Transport,+Nanded+City,+Pune+411041" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    Near Lagad Transport, Nanded City, Pune 411041
+                                </a>
                                 </p>
                             </div>
                         </div>
