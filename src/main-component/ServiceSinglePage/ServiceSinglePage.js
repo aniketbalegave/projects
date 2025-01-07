@@ -24,6 +24,23 @@ const ServiceSinglePage = (props) => {
 
     const [isOpen, setOpen] = useState(false)
 
+    // let ServiceDetails;
+
+    // if (slug === "") {
+    //     // For Mobile App Development page
+    //     return <ServiceSinglePage />;
+    //     // ServiceDetails = {
+    //     //     title: "Mobile App Development",
+    //     //     description: "In the fast-paced world of mobile technology, businesses must stay ahead...",
+    //     // };
+    // }
+
+    // const ServiceDetails = Services.find((item) => item.slug === slug);
+
+    if (!ServiceDetails) {
+        return <div>Service not found</div>;
+    }
+
     return (
         <Fragment>
             <Header2 />

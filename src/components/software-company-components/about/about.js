@@ -51,14 +51,14 @@ const About = (props) => {
                 <div className="about_funfact_counter">
                   <div className="funfact_item">
                     <div className="counter_value">
-                      <span className="odometer" data-count="6">0</span>
-                      <span>K+</span>
+                      <span className="odometer" data-count="6">400</span>
+                      <span>+</span>
                     </div>
                     <h3 className="funfact_title mb-0">Projects Done</h3>
                   </div>
                   <div className="funfact_item">
                     <div className="counter_value">
-                      <span className="odometer" data-count="100">0</span>
+                      <span className="odometer" data-count="100">99</span>
                       <span>%</span>
                     </div>
                     <h3 className="funfact_title mb-0">Results Guaranteed</h3>
@@ -164,7 +164,7 @@ const About = (props) => {
         </div>
       </div>
       <div className="decoration_item shape_image_1">
-        <img src={shape1} alt="Techco Shape" />
+        <img src={shape1} alt="Shree RevaTech Shape" />
       </div>
     </section>
   )

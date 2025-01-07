@@ -320,26 +320,49 @@ const Footer = (props) => {
 
 
                 <ul className="social_icons_block unordered_list">
-                  <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={ClickHandler} to="/home_software_company">
-                      <i className="fa-brands fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
+                <li>
+                <a 
+                    href="https://www.facebook.com/shree.revatech/" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <i className="fa-brands fa-facebook-f"></i>
+                </a>
+                </li>
+                <li>
+                <a 
+                    href="https://www.instagram.com/shree_reva_tech/" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <i className="fa-brands fa-instagram"></i>
+                </a>
+                </li>
+                <li>
+                <a 
+                     href="https://www.threads.net/@shree_reva_tech?xmt=AQGzYn2tQ3NKtbe9idvaWh-ynBCJoWT4GO0rYQfWVPysnB4" 
+                      target="_blank" 
+                      rel="noopener noreferrer">
+                      <i className="fa-brands fa-threads"></i>
+                </a>
+                </li>
+                <li>
+                <a 
+                    href="https://x.com/shreerevatech" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                    <i className="fa-brands fa-twitter"></i>
+                </a>
+                </li>
+
+                  {/* <li>
                     <Link onClick={ClickHandler} to="/home_software_company">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link onClick={ClickHandler} to="/home_software_company">
                       <i className="fa-brands fa-youtube"></i>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

@@ -17,6 +17,10 @@ import logo1 from '../../images/site_logo/logo-2.webp'
 import cases from '../../images/case/case_image_4.webp'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import MobileAppDevelopment from '../../main-component/ServiceSinglePage/MobileAppDevelopment';
+import WebDevelopment from '../../main-component/ServiceSinglePage/WebDevelopment';
+import DigitalMarketing from '../../main-component/ServiceSinglePage/DigitalMarketing';
+import Seo from '../../main-component/ServiceSinglePage/Seo';
+import SoftwareMaintanence from '../../main-component/ServiceSinglePage/SoftwareMaintanence';
 
 const Header2 = (props) => {
 
@@ -93,7 +97,7 @@ const Header2 = (props) => {
                                                                                 <small className="iconbox_title">About Us</small>
                                                                             </span>
                                                                             <span className="description mb-0">
-                                                                                Learn more about Techco
+                                                                                Learn more about Shree RevaTech
                                                                             </span>
                                                                         </Link>
                                                                     </div>
@@ -110,7 +114,7 @@ const Header2 = (props) => {
                                                                             </span>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
+                                                                     <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/portfolio">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
@@ -123,7 +127,7 @@ const Header2 = (props) => {
                                                                             </span>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
+                                                                    {/* <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/portfolio_details/Explore-Our-IT-Solutions">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
@@ -135,7 +139,7 @@ const Header2 = (props) => {
                                                                                 Explore our work overview
                                                                             </span>
                                                                         </Link>
-                                                                    </div>
+                                                                    </div> */} 
                                                                     {/* <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/team">
                                                                             <span className="icon_title_wrap">
@@ -175,7 +179,7 @@ const Header2 = (props) => {
                                                                             </small>
                                                                         </Link>
                                                                     </div>
-                                                                    <div className="col-lg-3 col-md-6">
+                                                                    {/* <div className="col-lg-3 col-md-6">
                                                                         <Link onClick={ClickHandler} className="iconbox_block_2" to="/service-single/IT-Management-Services">
                                                                             <span className="icon_title_wrap">
                                                                                 <small className="iconbox_icon">
@@ -187,7 +191,7 @@ const Header2 = (props) => {
                                                                                 Happy to help you!
                                                                             </small>
                                                                         </Link>
-                                                                    </div>
+                                                                    </div> */}
                                                                 </div>
                                                             </div>
                                                             <ul className="btns_group p-0 unordered_list justify-content-start">
@@ -216,7 +220,7 @@ const Header2 = (props) => {
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                                <li>
+                                                                {/* <li>
                                                                     <div className="review_short_info_2">
                                                                         <div className="review_admin_logo">
                                                                             <img src={icon9} alt="Client Logo" />
@@ -232,25 +236,25 @@ const Header2 = (props) => {
                                                                             <div className="review_counter">From <b>200+</b> reviews</div>
                                                                         </div>
                                                                     </div>
-                                                                </li>
+                                                                </li> */}
                                                             </ul>
                                                         </div>
                                                         <div className="col-lg-3">
                                                             <div className="site_author bg-primary">
                                                                 <div className="author_box">
-                                                                    <div className="author_image bg-light">
+                                                                    {/* <div className="author_image bg-light">
                                                                         <img src={icon10} alt="Site Author" />
-                                                                    </div>
-                                                                    <div className="author_box_content">
+                                                                    </div> */}
+                                                                    {/* <div className="author_box_content">
                                                                         <h3 className="author_name text-white">Maverick Phoenix</h3>
                                                                         <span className="author_designation text-white">CEO At Techco</span>
-                                                                    </div>
+                                                                    </div> */}
                                                                     <div className="quote_icon">
                                                                         <img src={icon11} alt="Quote Icon" />
                                                                     </div>
                                                                 </div>
-                                                                <p className="mb-0 text-white">
-                                                                    As a CEO at Techco  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at Techco, I made that possible  for the clients.
+                                                                <p align ='justify'className="mb-0 text-white">
+                                                                Shree Revatech is a Pune-based company specializing in providing innovative IT solutions and digital services to streamline business operations. Located in Nanded City, Pune, they are committed to delivering excellence in technology and customer service.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -258,14 +262,14 @@ const Header2 = (props) => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className="dropdown">
-                                            <Link onClick={ClickHandler} className="nav-link" to="/" id="portfolio_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <li className="">
+                                            <Link onClick={ClickHandler} to ="/portfolio" className="nav-link"  id="portfolio_submenu" role="button"  aria-expanded="false">
                                                 Portfolio
                                             </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="portfolio_submenu">
+                                            {/* <ul className="dropdown-menu" aria-labelledby="portfolio_submenu">
                                                 <li><Link onClick={ClickHandler} to="/portfolio">Portfolio</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/portfolio_details/Explore-Our-IT-Solutions">Portfolio Details</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="dropdown">
                                             <Link onClick={ClickHandler} className="nav-link" to="/" id="services_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -288,37 +292,41 @@ const Header2 = (props) => {
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/Mobile-App-Development">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Mobile App Developmenty">
                                                                                     <span className="icon_list_text">
                                                                                         Mobile App Development
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Web Development">
                                                                                     <span className="icon_list_text">
-                                                                                        Software Testing
+                                                                                        Web Development
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Digital Marketing">
                                                                                     <span className="icon_list_text">
-                                                                                        UI/UX Design
+                                                                                        Digital Marketing
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
+                                                                                <Link onClick={ClickHandler} to="/service-single/SEO Services
+">
                                                                                     <span className="icon_list_text">
-                                                                                        SEO and Digital Marketing
+                                                                                        SEO Services
+
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Software Maintenance Services
+">
                                                                                     <span className="icon_list_text">
-                                                                                        Software Maintenance
+                                                                                        Software Maintenance Services
+
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
@@ -440,33 +448,48 @@ const Header2 = (props) => {
                                                             </div>
                                                             <div className="social_area">
                                                                 <ul className="social_icons_block unordered_list" data-text="Follow Us:">
-                                                                    <li>
-                                                                        <Link onClick={ClickHandler} to="/">
-                                                                            <i className="fa-brands fa-facebook-f"></i>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={ClickHandler} to="/">
-                                                                            <i className="fa-brands fa-twitter"></i>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={ClickHandler} to="/">
-                                                                            <i className="fa-brands fa-linkedin-in"></i>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link onClick={ClickHandler} to="/">
-                                                                            <i className="fa-brands fa-dribbble"></i>
-                                                                        </Link>
-                                                                    </li>
+                                                            <li>
+                                                                 <a 
+                                                                    href="https://www.facebook.com/shree.revatech/" 
+                                                                    target="_blank" 
+                                                                    rel="noopener noreferrer">
+                                                                    <i className="fa-brands fa-facebook-f"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a 
+                                                                    href="https://www.instagram.com/shree_reva_tech/" 
+                                                                    target="_blank" 
+                                                                    rel="noopener noreferrer">
+                                                                    <i className="fa-brands fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a 
+                                                                    href="https://www.threads.net/@shree_reva_tech?xmt=AQGzYn2tQ3NKtbe9idvaWh-ynBCJoWT4GO0rYQfWVPysnB4" 
+                                                                    target="_blank" 
+                                                                    rel="noopener noreferrer">
+                                                                    <i className="fa-brands fa-threads"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a 
+                                                                    href="https://x.com/shreerevatech" 
+                                                                    target="_blank" 
+                                                                    rel="noopener noreferrer">
+                                                                    <i className="fa-brands fa-twitter"></i>
+                                                                </a>
+                                                            </li>
                                                                 </ul>
                                                                 <p className="career_link m-0">Looking for new career? <Link onClick={ClickHandler} to="/">We’re Hiring</Link></p>
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-3">
                                                             <div className="megamenu_case bg-primary">
-                                                                <h3>Computer Software</h3>
+                                                            <p align ='justify'className="mb-0 text-white">
+                                                                Shree Revatech is a Pune-based company specializing in providing innovative IT solutions and digital services to streamline business operations. Located in Nanded City, Pune, they are committed to delivering excellence in technology and customer service.
+                                                                </p>
+                                                                {/* <h3>Computer Software</h3>
                                                                 <h4>Astarte Medical</h4>
                                                                 <img src={cases} alt="Case" />
                                                                 <Link onClick={ClickHandler} className="btn" to="/portfolio">
@@ -474,7 +497,7 @@ const Header2 = (props) => {
                                                                     <span className="btn_icon">
                                                                         <i className="fa-solid fa-arrow-up-right"></i>
                                                                     </span>
-                                                                </Link>
+                                                                </Link> */}
                                                             </div>
                                                         </div>
                                                     </div>

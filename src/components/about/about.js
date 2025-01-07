@@ -21,8 +21,8 @@ const About = (props) => {
                     <div className="col-lg-6">
                         <div className="about_image_1">
                             <img src={about1} alt="Techco - About" />
-                            <img src={about2} data-parallax='{"y" : 80, "smoothness": 6}' alt="Techco - About" />
-                            <img src={about3} data-parallax='{"y" : -80, "smoothness": 6}' alt="Techco - About" />
+                            <img src={about2} data-parallax='{"y" : 80, "smoothness": 6}' alt="Shree RevaTech - About" />
+                            <img src={about3} data-parallax='{"y" : -80, "smoothness": 6}' alt="Shree RevaTech - About" />
                         </div>
                     </div>
                     <div className="col-lg-5">
@@ -36,7 +36,7 @@ const About = (props) => {
                                     Our Commitment to Client Satisfaction
                                 </h2>
                                 <p className="heading_description mb-0">
-                                    At Techco, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
+                                    At Shree RevaTech, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
                                 </p>
                             </div>
                             <ul className="icon_list unordered_list_block mb-5">

@@ -82,9 +82,31 @@ const Footer = (props) => {
                                         <button type="submit"><i className="fa-solid fa-paper-plane"></i></button>
                                     </form>
                                     <ul className="social_links_block unordered_list">
-                                        <li><Link onClick={ClickHandler} to="/">Facebook</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/">Twitter</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/">Linkdin</Link></li>
+                                    <li>
+                                        <a 
+                                            href="https://www.facebook.com/shree.revatech/" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer">
+                                        <i className="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a 
+                                            href="https://www.instagram.com/shree_reva_tech/" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer">
+                                        <i className="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a 
+                                            href="https://x.com/shreerevatech" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer">
+                                            <i className="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+
                                     </ul>
                                 </div>
                             </div>

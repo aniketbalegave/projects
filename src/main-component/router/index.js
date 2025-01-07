@@ -16,6 +16,10 @@ import BlogPage from '../BlogPage/BlogPage';
 import BlogDetails from '../BlogDetails/BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
 import MobileAppDevelopment from '../ServiceSinglePage/MobileAppDevelopment';
+import WebDevelopment from '../ServiceSinglePage/WebDevelopment';
+import DigitalMarketing from '../ServiceSinglePage/DigitalMarketing';
+import Seo from '../ServiceSinglePage/Seo';
+import SoftwareMaintanence from '../ServiceSinglePage/SoftwareMaintanence';
 
 const AllRoute = () => {
 
@@ -29,18 +33,20 @@ const AllRoute = () => {
           {/* <Route path="home_business_consulting" element={<HomePage3 />} /> */}
           <Route path="about" element={<AboutUsPage />} />
           <Route path="pricing" element={<PricingPage />} />
-          <Route path="portfolio" element={<PortfolioPage />} />
-          <Route path="portfolio_details/:slug" element={<PortfolioSinglePage />} />
+           <Route path="portfolio" element={<PortfolioPage />} />
+          {/* <Route path="portfolio_details/:slug" element={<PortfolioSinglePage />} /> */} 
   
           {/* <Route path="team" element={<TeamPage />} /> */}
           <Route path="team-single/:slug" element={<TeamSinglePage />} />
           <Route path="service" element={<ServicePage />} />
-          <Route path="service-single/:slug/:page" element={<ServiceSinglePage />} />
-          <Route path="service-single/:slug/:page" element = {<MobileAppDevelopment />} />
-          <Route path="" element = {<></>} />
-          <Route path="" element = {<></>} />
-          <Route path="" element = {<></>} />
-          <Route path="" element = {<></>} />
+          <Route path="service-single/:slug" element={<ServiceSinglePage />} />
+          <Route path="service-single/Mobile App Developmenty" element = {<MobileAppDevelopment />} />
+          <Route path="service-single/Web Development" element = {<WebDevelopment />} />
+          <Route path="service-single/Digital Marketing" element = {<DigitalMarketing />} />
+          <Route path="service-single/SEO Services
+" element = {<Seo />} />
+          <Route path="service-singleSoftware Maintenance Services
+" element = {<SoftwareMaintanence />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
           <Route path="contact" element={<ContactPage />} />  

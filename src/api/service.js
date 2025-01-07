@@ -34,8 +34,8 @@ const Services = [
     {
         Id: '2',
         sImg:sImg2,
-        title: 'Mobile App Development',
-        slug: 'Mobile App Developmenty',
+        title: 'Mobile Application Development',
+        slug: 'Mobile Application Developmenty',
         thumb1:'Management',
         thumb2:'Transfer',
         col:'col-lg-6',
@@ -44,8 +44,8 @@ const Services = [
     {
         Id: '3',
         sImg:sImg3,
-        title: 'Software Testing',
-        slug: 'Software Testing',
+        title: 'Web Development',
+        slug: 'Web Development',
         thumb1:'Landing Page',
         thumb2:'Plugins',
         col:'col-lg-4',
@@ -54,8 +54,8 @@ const Services = [
     {
         Id: '4',
         sImg:sImg4,
-        title: 'UI/UX Design',
-        slug: 'UI/UX Design',
+        title: 'Digital Marketing',
+        slug: 'Digital Marketing',
         thumb1:'Consultation',
         thumb2:'solution',
         col:'col-lg-4',
@@ -64,8 +64,8 @@ const Services = [
     {
         Id: '5',
         sImg:sImg5,
-        title: 'SEO and Digital Marketing',
-        slug: 'SEO and Digital Marketing',
+        title: 'SEO Services',
+        slug: 'SEO Services',
         thumb1:'Website',
         thumb2:'Mobile App',
         col:'col-lg-4',
@@ -74,44 +74,44 @@ const Services = [
     {
         Id: '6',
         sImg:icon1,
-        title: 'Software Maintenance',
-        slug: 'Software Maintenance',
-        features: ['Custom Application Development', 'Software Architecture Design', 'System Integration Services', 'Data Migration Services','Legacy Application Modernization']
+        title: 'Software Development',
+        slug: 'Software Development',
+        features: ['Tailored Software Solutions', 'Application Design and Engineering', 'System Integration and Implementation', 'Database Migration and Optimization','Modernizing Legacy Systems']
     },
     {
         Id: '7',
         sImg:icon2,
-        title: 'Mobile App Development',
-        slug: 'Mobile App Development',
-        features: ['Android and iOS App Development', 'Cross-Platform Mobile Solutions', 'Enterprise Mobile App Development', 'Mobile Application Design Services']
+        title: 'Mobile Application Development',
+        slug: 'Mobile Application Development',
+        features: ['Custom Mobile App Creation', 'iOS and Android App Solutions', 'Multi-Platform App Development', 'Business-Centric Mobile Applications','UI/UX-Focused Mobile App Design   '     ]
     },
     {
         Id: '8',
         sImg:icon3,
-        title: 'Software Testing',
-        slug: 'Software Testing',
-        features: ['Quality Assurance Services', 'Automated and Manual Testing', 'Performance and Load Testing', 'Security Testing']
+        title: 'Web Development',
+        slug: 'Web Development',
+        features: ['Bespoke Website Development', 'Frontend and Backend Solutions', 'Responsive and Dynamic Web Design', 'E-commerce and Portal Development','Scalable Web Application Engineering']
     },
     {
         Id: '9',
         sImg:icon4,
-        title: 'UI/UX Design',
-        slug: 'UI/UX Design',
-        features: ['User Interface Design', 'User Experience Optimization', 'Creative Design Solutions', 'Responsive Web Design']
+        title: 'Digital Marketing',
+        slug: 'Digital Marketing',
+        features: ['Comprehensive Online Marketing Strategies', 'Social Media Campaign Management', 'Engaging Content Creation and Promotion', 'Targeted Advertising and PPC Management','Digital Branding and Awareness Building']
     },
     {
         Id: '10',
         sImg:icon5,
-        title: 'SEO and Digital Marketing',
-        slug: 'SEO and Digital Marketing',
-        features: ['Search Engine Optimization', 'Social Media Marketing', 'Content Marketing', 'Pay-Per-Click Advertising']
+        title: 'SEO Services',
+        slug: 'SEO Services',
+        features: ['Advanced Search Engine Optimization', 'On-Page and Off-Page SEO Techniques', 'Local SEO and Business Listings', 'Keyword Research and Content Optimization','SEO Analytics and Performance Tracking']
     },
     {
         Id: '11',
         sImg:icon6,
-        title: 'Software Maintenance',
-        slug: 'Software Maintenance',
-        features: ['Ongoing Software Maintenance', 'Technical Support Services', 'System Upgrades and Enhancements', 'Bug Fixing and Performance Optimization']
+        title: 'Software Maintenance Services',
+        slug: 'Software Maintenance Services',
+        features: ['Continuous Application Support', 'Technical Assistance and Troubleshooting', 'Upgrading and Enhancing Systems', 'Bug Tracking and Fixing Solutions','Performance Monitoring and Optimization']
     },
     {
         Id: '12',

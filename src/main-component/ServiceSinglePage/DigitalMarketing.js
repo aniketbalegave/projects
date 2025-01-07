@@ -17,7 +17,7 @@ import icon from '../../images/icons/icon_check_3.svg'
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
 
 
-const MobileAppDevelopment = (props) => {
+const DigitalMarketing = (props) => {
 
     const { slug, page } = useParams(); // Fetch slug and page parameters
     const navigate = useNavigate();
@@ -26,9 +26,9 @@ const MobileAppDevelopment = (props) => {
     // Determine the service based on slug or default to a specific page
     let ServiceDetails;
 
-    if (slug === "Mobile App Developmenty") {
+    if (slug === "Digital Marketing") {
         // For Mobile App Development page
-        return <MobileAppDevelopment />;
+        return <DigitalMarketing />;
         // ServiceDetails = {
         //     title: "Mobile App Development",
         //     description: "In the fast-paced world of mobile technology, businesses must stay ahead...",
@@ -154,4 +154,4 @@ const MobileAppDevelopment = (props) => {
         </Fragment>
     )
 };
-export default MobileAppDevelopment;
+export default DigitalMarketing;
