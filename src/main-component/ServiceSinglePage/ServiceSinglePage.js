@@ -61,9 +61,9 @@ const ServiceSinglePage = (props) => {
                         In the fast-paced world of mobile technology, businesses must stay ahead by offering seamless and innovative mobile applications that enhance user engagement and drive success. At our IT solution agency, we specialize in creating customized mobile apps that are not only functional but also provide exceptional user experiences. Whether you're a startup or an established enterprise, our team works to understand your unique business needs and deliver mobile solutions that foster growth, efficiency, and customer satisfaction.
 
                         </p>
-                        <p align="justify">
+                        {/* <p align="justify">
                         We take a comprehensive approach to software development, considering factors such as user experience, system architecture, scalability, and future business needs. By utilizing industry best practices and the latest technologies, we deliver innovative solutions designed to evolve with your business.
-                        </p>
+                        </p> */}
                         <ProcessTechnology />
                         <h3 className="details_item_info_title">Services Outcome</h3>
                         <p className="mb-4">

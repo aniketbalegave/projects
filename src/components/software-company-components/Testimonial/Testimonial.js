@@ -5,42 +5,42 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import icon1 from '../../../images/icons/icon_c.svg'
 import icon2 from '../../../images/icons/icon_g2.svg'
-import tImg1 from '../../../images/avatar/avatar_5.webp'
-import tImg2 from '../../../images/avatar/avatar_6.webp'
-import tImg3 from '../../../images/avatar/avatar_7.webp'
+// import tImg1 from '../../../images/avatar/avatar_5.webp'
+// import tImg2 from '../../../images/avatar/avatar_6.webp'
+// import tImg3 from '../../../images/avatar/avatar_7.webp'
 
 import clogo from '../../../images/clients/client-8.png'
-import flag from '../../../images/flag/ukraine_flag.webp'
+// import flag from '../../../images/flag/ukraine_flag.webp'
 
 
 
 const testimonial = [
     {
         id: '01',
-        tImg: tImg1,
+        tImg: clogo,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
-        sub: 'Board Member, UNIQA',
-        country: 'Seattle, Ukraine',
+        // Name: 'Maverick Phoenix',
+        // sub: 'Board Member, UNIQA',
+        // country: 'Seattle, Ukraine',
     },
     {
         id: '02',
-        tImg: tImg2,
+        tImg: clogo,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
-        sub: 'Board Member, UNIQA',
-        country: 'Seattle, Ukraine',
+        // Name: 'Maverick Phoenix',
+        // sub: 'Board Member, UNIQA',
+        // country: 'Seattle, Ukraine',
     },
     {
         id: '03',
-        tImg: tImg3,
+        tImg: clogo,
         Title: 'Amazing software services',
         Des: "The solutions they're providing is helping our business run more smoothly. We've been able to make quick developments with them, meeting our product vision within the timeline we set up. Listen to them because they can give strong advice about how to build good products.",
-        Name: 'Maverick Phoenix',
-        sub: 'Board Member, UNIQA',
-        country: 'Seattle, Ukraine',
+        // Name: 'Maverick Phoenix',
+        // sub: 'Board Member, UNIQA',
+        // country: 'Seattle, Ukraine',
     },
 ]
 
@@ -64,7 +64,7 @@ const Testimonial = () => {
             <div className="col-lg-4">
                 <div className="deals_winner_customers">
                     <h3 className="title_text">
-                        <mark>3,900+</mark> customers win deals with Techco
+                        <mark>3,900+</mark> customers win deals with Shree RevaTech
                     </h3>
                     <div className="row">
                         <div className="col-6">
@@ -132,16 +132,16 @@ const Testimonial = () => {
                                                     <h4 className="review_admin_name">{testimonial.Name}</h4>
                                                     <span className="review_admin_designation">{testimonial.sub}</span>
                                                     <div className="review_admin_country">
-                                                        <span className="country_flag">
+                                                        {/* <span className="country_flag">
                                                             <img src={flag} alt="Ukraine Flag" />
-                                                        </span>
+                                                        </span> */}
                                                         <span className="country_text">{testimonial.country}</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="review_admin_logo">
+                                            {/* <div className="review_admin_logo">
                                                 <img src={clogo} alt="Review Admin Logo" />
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </SwiperSlide>

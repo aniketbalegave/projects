@@ -59,7 +59,7 @@ const AboutUsPage = (props) => {
                                     </h2>
                                 </div>
                                 <div className="col-lg-6">
-                                    <p className="heading_description mb-0">
+                                    <p align ="justify" className="heading_description mb-0">
                                     At Shree RevaTech, we pride ourselves on offering dynamic and flexible IT services tailored to your specific requirements. Our adaptable approach ensures that we can adjust our offerings to accommodate your evolving needs, whether you require comprehensive IT infrastructure support, strategic consultancy, or software development.
 
                                     </p>

@@ -466,7 +466,7 @@ const FaqSection = (props) => {
                                 </div>
                             </AccordionBody>
                         </AccordionItem>
-                        <AccordionItem className="accordion-item">
+                        {/* <AccordionItem className="accordion-item">
                             <AccordionHeader targetId="2">
                             Q. Why is custom software development important?
                             </AccordionHeader>
@@ -527,7 +527,7 @@ const FaqSection = (props) => {
 
                                                 </span>
                                             </li>
-                                            {/* <li>
+                                             <li>
                                                 <span className="icon_list_icon">
                                                     <i className="fa-solid fa-circle fa-fw"></i>
                                                 </span>
@@ -550,12 +550,12 @@ const FaqSection = (props) => {
                                                 <span className="icon_list_text">
                                                     IT staffing services
                                                 </span>
-                                            </li> */}
+                                            </li> 
                                         </ul>
                                     </div>
                                 </div>
                             </AccordionBody>
-                        </AccordionItem>
+                        </AccordionItem> */}
                     </Accordion>
                 </div>
             </div>

@@ -72,8 +72,14 @@ const menus = [
             {
                 id: 42,
                 title: 'Service Details',
-                link: '/service-single/IT-Management-Services'
+                link: '/service-single/Software-Development'
+            },
+            {
+                id:43,
+                title: 'Software Development',
+                link: '/service-single/Mobile-App-Development'
             }
+
         ]
     },
     {

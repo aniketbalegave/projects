@@ -140,26 +140,26 @@ const Footer = (props) => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link onClick={ClickHandler} to="/service">
+                                            <Link onClick={ClickHandler} to="/blog">
                                                 <span className="icon_list_text">
-                                                    Investors
+                                                    Blogs
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} to="/contact">
                                                 <span className="icon_list_text">
-                                                    Contact
+                                                    Help Center
                                                 </span>
                                             </Link>
                                         </li>
-                                        <li>
+                                       {/*  <li>
                                             <Link onClick={ClickHandler} to="/about">
                                                 <span className="icon_list_text">
                                                     Affiliate Program
                                                 </span>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link onClick={ClickHandler} to="/portfolio">
                                                 <span className="icon_list_text">
@@ -167,17 +167,17 @@ const Footer = (props) => {
                                                 </span>
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link onClick={ClickHandler} to="/pricing">
                                                 <span className="icon_list_text">
                                                     Pricing Plan
                                                 </span>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-6 col-sm-6">
+                            {/* <div className="col-lg-2 col-md-6 col-sm-6">
                                 <div className="footer_widget">
                                     <h3 className="footer_info_title">Product</h3>
                                     <ul className="icon_list unordered_list_block">
@@ -225,7 +225,7 @@ const Footer = (props) => {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

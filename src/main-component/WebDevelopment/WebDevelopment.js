@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import Services from '../../api/service'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import ModalVideo from 'react-modal-video'
 // import Header from '../../components/header/Header';
 import Header2 from '../../components/Header2/Header2';
@@ -14,38 +14,39 @@ import srImg2 from '../../images/services/serive_2.png'
 import srImg3 from '../../images/services/service_3.png'
 import srImg4 from '../../images/services/service_4.png'
 import icon from '../../images/icons/icon_check_3.svg'
+import ServiceSection from '../../components/ServiceSection/ServiceSection';
+import WebDevelopment from '../ServiceSinglePage/WebDevelopment';
 
 
-const SoftwareDevelopment = (props) => {
+const WebDevelopment = (props) => {
 
-    const { slug, page } = useParams()
+    const { slug, page } = useParams(); // Fetch slug and page parameters
+    const navigate = useNavigate();
+    const [isOpen, setOpen] = useState(false);
 
-    const ServiceDetails = Services.find(item => item.slug === slug)
+    // Determine the service based on slug or default to a specific page
+    let ServiceDetails;
 
-    const [isOpen, setOpen] = useState(false)
+    if (slug === "Web Development") {
+        // For Mobile App Development page
+        return <WebDevelopment />;
+        // ServiceDetails = {
+        //     title: "Mobile App Development",
+        //     description: "In the fast-paced world of mobile technology, businesses must stay ahead...",
+        // };
+    }
 
-    // let ServiceDetails;
-
-    // if (slug === "") {
-    //     // For Mobile App Development page
-    //     return <ServiceSinglePage />;
-    //     // ServiceDetails = {
-    //     //     title: "Mobile App Development",
-    //     //     description: "In the fast-paced world of mobile technology, businesses must stay ahead...",
-    //     // };
-    // }
-
-    // const ServiceDetails = Services.find((item) => item.slug === slug);
-
+    // Redirect if no matching service is found
     if (!ServiceDetails) {
-        return <ServiceDetails />;
+        navigate('/service'); // Redirect to the services overview
+        return <ServiceDetails />; // Prevent rendering blank content
     }
 
     return (
         <Fragment>
             <Header2 />
             <main className="page_content service-single-page">
-                <PageTitle pageTitle={ServiceDetails.title} pagesub={'Details 😍'} pageTop={'Services'} />
+                <PageTitle pageTitle="Mobile App Development" pagesub={'Details 😍'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
                     <div className="container">
                         <div className="details_item_image position-relative">
@@ -61,9 +62,9 @@ const SoftwareDevelopment = (props) => {
                         In the fast-paced world of mobile technology, businesses must stay ahead by offering seamless and innovative mobile applications that enhance user engagement and drive success. At our IT solution agency, we specialize in creating customized mobile apps that are not only functional but also provide exceptional user experiences. Whether you're a startup or an established enterprise, our team works to understand your unique business needs and deliver mobile solutions that foster growth, efficiency, and customer satisfaction.
 
                         </p>
-                        <p align="justify">
+                        {/* <p align="justify">
                         We take a comprehensive approach to software development, considering factors such as user experience, system architecture, scalability, and future business needs. By utilizing industry best practices and the latest technologies, we deliver innovative solutions designed to evolve with your business.
-                        </p>
+                        </p> */}
                         <ProcessTechnology />
                         <h3 className="details_item_info_title">Services Outcome</h3>
                         <p className="mb-4">
@@ -154,4 +155,4 @@ const SoftwareDevelopment = (props) => {
         </Fragment>
     )
 };
-export default SoftwareDevelopment;
+export default WebDevelopment;

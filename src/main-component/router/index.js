@@ -11,7 +11,7 @@ import PortfolioSinglePage from '../PortfolioSinglePage/PortfolioSinglePage';
 import TeamPage from '../TeamPage/TeamPage';
 import TeamSinglePage from '../TeamSinglePage/TeamSinglePage';
 import ServicePage from '../ServicePage/ServicePage';
-import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
+import ServiceSinglePage from '../ServiceSinglePage/SoftwareDevelopment';
 import BlogPage from '../BlogPage/BlogPage';
 import BlogDetails from '../BlogDetails/BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
@@ -40,13 +40,11 @@ const AllRoute = () => {
           <Route path="team-single/:slug" element={<TeamSinglePage />} />
           <Route path="service" element={<ServicePage />} />
           <Route path="service-single/:slug" element={<ServiceSinglePage />} />
-          <Route path="service-single/Mobile App Developmenty" element = {<MobileAppDevelopment />} />
+          <Route path="service-single/Mobile Application Developmenty" element = {<MobileAppDevelopment />} />
           <Route path="service-single/Web Development" element = {<WebDevelopment />} />
           <Route path="service-single/Digital Marketing" element = {<DigitalMarketing />} />
-          <Route path="service-single/SEO Services
-" element = {<Seo />} />
-          <Route path="service-singleSoftware Maintenance Services
-" element = {<SoftwareMaintanence />} />
+          <Route path="service-single/SEO Services" element = {<Seo />} />
+          <Route path="service-singleSoftware Maintenance Services" element = {<SoftwareMaintanence />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="blog-single/:slug" element={<BlogDetails />} />
           <Route path="contact" element={<ContactPage />} />  

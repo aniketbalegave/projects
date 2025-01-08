@@ -285,14 +285,14 @@ const Header2 = (props) => {
                                                                         <h3 className="megamenu_info_title">Services</h3>
                                                                         <ul className="icon_list unordered_list_block">
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/IT-Management-Services">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Software Development">
                                                                                     <span className="icon_list_text">
                                                                                        Software Development 
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
                                                                             <li>
-                                                                                <Link onClick={ClickHandler} to="/service-single/Mobile App Developmenty">
+                                                                                <Link onClick={ClickHandler} to="/service-single/Mobile Application Developmenty">
                                                                                     <span className="icon_list_text">
                                                                                         Mobile App Development
                                                                                     </span>
@@ -396,7 +396,7 @@ const Header2 = (props) => {
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div className="col-lg-4">
+                                                                {/* <div className="col-lg-4">
                                                                     <div className="megamenu_widget">
                                                                         <h3 className="megamenu_info_title">Product</h3>
                                                                         <ul className="icon_list unordered_list_block">
@@ -443,8 +443,8 @@ const Header2 = (props) => {
                                                                                 </Link>
                                                                             </li>
                                                                         </ul>
-                                                                    </div>
-                                                                </div>
+                                                                    </div> 
+                                                                </div>*/}
                                                             </div>
                                                             <div className="social_area">
                                                                 <ul className="social_icons_block unordered_list" data-text="Follow Us:">
@@ -481,7 +481,7 @@ const Header2 = (props) => {
                                                                 </a>
                                                             </li>
                                                                 </ul>
-                                                                <p className="career_link m-0">Looking for new career? <Link onClick={ClickHandler} to="/">We’re Hiring</Link></p>
+                                                                {/* <p className="career_link m-0">Looking for new career? <Link onClick={ClickHandler} to="/">We’re Hiring</Link></p> */}
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-3">
