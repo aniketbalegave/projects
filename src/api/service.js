@@ -30,6 +30,13 @@ const Services = [
         thumb2:'Consultation',
         col:'col-lg-6',
         description:'Visit new places to discover with a Tourist Visa. We deliver your documents ...',
+        mad: 'Software development is essential for modern businesses, providing tailored solutions that address unique operational needs. At our software development agency, we specialize in creating reliable and scalable applications designed to enhance efficiency, security, and growth. Whether you are a small startup or a large enterprise, we understand the importance of bespoke software solutions that align with your business goals. Our team of skilled professionals works closely with you to develop high-quality applications that drive success.We take a comprehensive approach to software development, considering factors such as user experience, system architecture, scalability, and future business needs. By utilizing industry best practices and the latest technologies, we deliver innovative solutions designed to evolve with your business.',
+        discovery:'We begin by thoroughly understanding your business requirements, goals, and challenges to craft a personalized software solution.',
+        design:'Our team designs and develops custom software tailored to your unique needs, ensuring the highest standards of functionality and performance.',
+        maintaine:'We offer ongoing support and maintenance to ensure your software stays up to date and continues to perform optimally.',
+        development:'We manage the smooth deployment of your software, ensuring a seamless transition into your live environment.',
+        testing:'Our rigorous testing and quality assurance processes ensure that your software is robust, secure, and error-free, delivering the best possible user experience.',
+
     },
     {
         Id: '2',
@@ -40,6 +47,13 @@ const Services = [
         thumb2:'Transfer',
         col:'col-lg-6',
         description:'Developing your trade, setting up new sales channels Your visa is ready...',
+        mad: 'In the fast-paced world of mobile technology, businesses must stay ahead by offering seamless and innovative mobile applications that enhance user engagement and drive success. At our IT solution agency, we specialize in creating customized mobile apps that are not only functional but also provide exceptional user experiences. Whether you are a startup or an established enterprise, our team works to understand your unique business needs and deliver mobile solutions that foster growth, efficiency, and customer satisfaction.',
+        approch: 'We believe in a customer-centric approach to mobile app development, ensuring that every stage is aligned with your business goals. Our experienced developers use cutting-edge technologies and frameworks to create mobile applications that are scalable, secure, and adaptable to the evolving demands of the mobile market.',
+        discovery: 'We start by understanding your business objectives, target audience, and mobile app requirements. This phase helps us define the projects scope and gather insights for creating an app that truly meets your needs. Our team conducts a thorough analysis of the market, user personas, and competitor apps to design a comprehensive plan.',
+        design:'Our design team creates intuitive and visually appealing UI/UX designs tailored to your brand and user preferences. The development phase focuses on building robust, high-performance mobile applications using industry-leading technologies like Swift, Kotlin, and React Native. We ensure the app is optimized for both iOS and Android platforms.',
+        maintaine:'Post-launch support is crucial for the continued success of any app. Our maintenance services ensure that your mobile application stays up-to-date, bug-free, and performs at its best. We offer regular updates, feature enhancements, and troubleshooting to keep your app running smoothly.',
+        development:'We take care of the entire deployment process, ensuring a smooth launch on the App Store and Google Play Store. Our team handles all the requirements, from app submission to meeting platform guidelines, ensuring a seamless release.',
+        testing:'Our comprehensive testing and quality assurance process ensures that your mobile app functions flawlessly across different devices, OS versions, and user scenarios. We perform rigorous testing to identify and resolve any issues before the app reaches your users.',
     },
     {
         Id: '3',
@@ -50,6 +64,13 @@ const Services = [
         thumb2:'Plugins',
         col:'col-lg-4',
         description:'Developing your trade, setting up new sales channels Your visa is ready...',
+        mad:'Web development is the cornerstone of establishing a strong online presence, providing businesses with dynamic and engaging websites that cater to their unique needs. At our web development agency, we specialize in creating responsive and feature-rich websites designed to enhance user engagement, functionality, and brand visibility. Whether you are a budding startup or an established enterprise, we deliver custom web solutions aligned with your business objectives. Our team of skilled professionals works closely with you to craft high-quality websites that leave a lasting impression.We take a holistic approach to web development, focusing on user-centric design, seamless navigation, scalability, and future-ready technologies. By adhering to industry best practices and leveraging the latest tools, we create innovative web solutions that grow alongside your business.',
+        discovery:'We start by understanding your business goals, target audience, and requirements to design a website tailored to your vision.',
+        design:'Our team combines creativity and technology to develop a visually stunning, user-friendly, and functional website that meets your business needs.',
+        maintaine:'Rigorous testing ensures your website is secure, error-free, and performs seamlessly across all devices and browsers.',
+        development:'We ensure a hassle-free website launch, seamlessly transitioning your website to its live environment.',
+        testing:'We provide ongoing support and updates to keep your website performing at its best and aligned with the latest trends.',
+        
     },
     {
         Id: '4',
@@ -60,6 +81,7 @@ const Services = [
         thumb2:'solution',
         col:'col-lg-4',
         description:'Embarking on a journey of higher education in a foreign country opens doors to...',
+        mad:'In today’s competitive online landscape, digital marketing has become a necessity for businesses looking to expand their reach, engage with customers, and drive conversions. At our IT solution agency, we specialize in crafting innovative and result-driven digital marketing strategies tailored to your business needs. Whether you are a small startup or an established enterprise, our team of experts is committed to helping you achieve your marketing objectives and elevate your online presence.',
     },
     {
         Id: '5',
@@ -70,6 +92,7 @@ const Services = [
         thumb2:'Mobile App',
         col:'col-lg-4',
         description:'Expert Guidance for a Seamless Immigration Journey Expert Guidance...',
+        mad:'In todays digital world, having a strong online presence is essential for business success. Search Engine Optimization (SEO) plays a crucial role in driving organic traffic to your website and improving your visibility on search engines like Google. At our IT solution agency, we specialize in delivering top-notch SEO services that are designed to help your business rank higher, attract more visitors, and convert them into loyal customers.',
     },
     {
         Id: '6',
@@ -111,7 +134,16 @@ const Services = [
         sImg:icon6,
         title: 'Software Maintenance Services',
         slug: 'Software Maintenance Services',
-        features: ['Continuous Application Support', 'Technical Assistance and Troubleshooting', 'Upgrading and Enhancing Systems', 'Bug Tracking and Fixing Solutions','Performance Monitoring and Optimization']
+        features: ['Continuous Application Support', 'Technical Assistance and Troubleshooting', 'Upgrading and Enhancing Systems', 'Bug Tracking and Fixing Solutions','Performance Monitoring and Optimization'],
+        description:'Visit new places to discover with a Tourist Visa. We deliver your documents ...',
+        mad: 'Software maintenance is a critical aspect of ensuring the longevity and optimal performance of your software solutions. At our agency, we specialize in providing reliable and efficient software maintenance services designed to keep your applications running smoothly, securely, and up to date. Whether you need bug fixes, performance enhancements, or updates to adapt to evolving business needs, our team ensures your software remains a valuable asset to your operations. We adopt a proactive approach to software maintenance, addressing issues before they impact your business. By leveraging the latest technologies and industry best practices, we deliver continuous improvements to keep your software aligned with your business goals and market trends.',
+        discovery:'We begin by thoroughly understanding your business requirements, goals, and challenges to craft a personalized software solution.',
+        design:'Our team designs and develops custom software tailored to your unique needs, ensuring the highest standards of functionality and performance.',
+        maintaine:'We offer ongoing support and maintenance to ensure your software stays up to date and continues to perform optimally.',
+        development:'We manage the smooth deployment of your software, ensuring a seamless transition into your live environment.',
+        testing:'Our rigorous testing and quality assurance processes ensure that your software is robust, secure, and error-free, delivering the best possible user experience.',
+    
+        
     },
     {
         Id: '12',
@@ -155,6 +187,7 @@ const Services = [
         slug: 'Performance-Metrics-and-KPI-Development',
         description:'Our consulting services are customized to suit the unique needs and goals of each client, ensuring precise alignment with their business objectives.',
     },
+    
 ]    
 
 export default Services;

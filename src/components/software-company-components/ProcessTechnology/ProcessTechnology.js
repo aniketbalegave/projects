@@ -1,10 +1,12 @@
 
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Bg from '../../../images/shapes/shape_title_under_line.svg'
 import shape1 from '../../../images/shapes/shape_line_2.svg'
 import shape2 from '../../../images/shapes/shape_line_3.svg'
 import shape3 from '../../../images/shapes/shape_line_4.svg'
 import shape4 from '../../../images/shapes/shape_space_3.svg'
+import Services from 'd:/shreeRevaTech/projects/projects/src/api/service';
 
 import {
     Accordion,
@@ -17,6 +19,7 @@ import Testimonial from '../Testimonial/Testimonial';
 
 const FaqSection = (props) => {
 
+    const { slug } = useParams();
     const [open, setOpen] = useState('1');
     const toggle = (id) => {
         if (open === id) {
@@ -25,6 +28,8 @@ const FaqSection = (props) => {
             setOpen(id);
         }
     };
+
+    const serviceData = Services.find((service) => service.slug === slug);
 
     return (
         <section className="process_technology_review_section bg-light section_decoration">
@@ -46,7 +51,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="1" className='acc_body'>
                                     <p className="m-0">
-                                    We begin by understanding your unique requirements and analyzing data to create a diagnostic and predictive app that improves outcomes effectively.
+                                        {serviceData.discovery}
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -56,7 +61,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="2" className='acc_body'>
                                     <p className="m-0">
-                                    Our team crafts user-centric designs and develops robust solutions tailored to your needs, ensuring functionality and scalability.
+                                        {serviceData.design}
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -66,7 +71,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="3" className='acc_body'>
                                     <p className="m-0">
-                                    We provide ongoing support to keep your system running smoothly and up-to-date with the latest enhancements.
+                                        {serviceData.maintaine}
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -76,7 +81,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="4" className='acc_body'>
                                     <p className="m-0">
-                                    Seamless deployment ensures your solution is ready to perform efficiently in real-world environments.
+                                        {serviceData.development}
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>
@@ -86,7 +91,7 @@ const FaqSection = (props) => {
                                 </AccordionHeader>
                                 <AccordionBody accordionId="5" className='acc_body'>
                                     <p className="m-0">
-                                    Rigorous testing and quality assurance guarantee a flawless product that meets all expectations and delivers optimal performance.
+                                        {serviceData.testing}
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>

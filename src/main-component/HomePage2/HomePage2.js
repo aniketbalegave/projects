@@ -23,7 +23,7 @@ const HomePage2 = () => {
                     <FeaturePartners />
                     <ServiceSection />
                     <About />
-                    <ProcessTechnology />
+                    {/* <ProcessTechnology /> */}
                     <FaqSection />
                     <BlogSection />
                     <ContactSection />

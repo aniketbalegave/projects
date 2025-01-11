@@ -142,7 +142,7 @@ const Footer = (props) => {
                                         <li>
                                             <Link onClick={ClickHandler} to="/blog">
                                                 <span className="icon_list_text">
-                                                    Blogs
+                                                    BlogsPage
                                                 </span>
                                             </Link>
                                         </li>

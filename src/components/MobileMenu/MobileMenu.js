@@ -71,13 +71,13 @@ const menus = [
             },
             {
                 id: 42,
-                title: 'Service Details',
-                link: '/service-single/Software-Development'
+                title: 'Software Development',
+                link: '/Software-Development'
             },
             {
                 id:43,
-                title: 'Software Development',
-                link: '/service-single/Mobile-App-Development'
+                title: 'Mobile App Development',
+                link: '/Mobile-App-Development'
             }
 
         ]

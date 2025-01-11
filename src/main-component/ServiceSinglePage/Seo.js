@@ -19,33 +19,23 @@ import ServiceSection from '../../components/ServiceSection/ServiceSection';
 
 const Seo = (props) => {
 
-    const { slug, page } = useParams(); // Fetch slug and page parameters
+    const { slug } = useParams();
     const navigate = useNavigate();
     const [isOpen, setOpen] = useState(false);
 
-    // Determine the service based on slug or default to a specific page
-    let ServiceDetails;
+    // Fetch specific service details based on the slug
+    const serviceData = Services.find((service) => service.slug === slug);
 
-    if (slug === "SEO Services") {
-        // For Mobile App Development page
-        return <Seo />;
-        // ServiceDetails = {
-        //     title: "Mobile App Development",
-        //     description: "In the fast-paced world of mobile technology, businesses must stay ahead...",
-        // };
-    }
-
-    // Redirect if no matching service is found
-    if (!ServiceDetails) {
-        navigate('/service'); // Redirect to the services overview
-        return <ServiceDetails />; // Prevent rendering blank content
+    if (!serviceData) {
+        navigate('/service'); // Redirect to service list if not found
+        return null;
     }
 
     return (
         <Fragment>
             <Header2 />
             <main className="page_content service-single-page">
-                <PageTitle pageTitle="Mobile App Development" pagesub={'Details 😍'} pageTop={'Services'} />
+                <PageTitle pageTitle="Search Engine Optimization" pagesub={'Details 😍'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
                     <div className="container">
                         <div className="details_item_image position-relative">
@@ -56,14 +46,12 @@ const Seo = (props) => {
                                     </span>
                                 </button>
                         </div>
-                        <h2 className="details_item_title">{ServiceDetails.title}</h2>
-                        <p align="justify">
-                        In the fast-paced world of mobile technology, businesses must stay ahead by offering seamless and innovative mobile applications that enhance user engagement and drive success. At our IT solution agency, we specialize in creating customized mobile apps that are not only functional but also provide exceptional user experiences. Whether you're a startup or an established enterprise, our team works to understand your unique business needs and deliver mobile solutions that foster growth, efficiency, and customer satisfaction.
+                        <h2 className="details_item_title">{serviceData.title}</h2>
+                        <p 
+                        align="justify">{serviceData.mad}
 
                         </p>
-                        <p align="justify">
-                        We take a comprehensive approach to software development, considering factors such as user experience, system architecture, scalability, and future business needs. By utilizing industry best practices and the latest technologies, we deliver innovative solutions designed to evolve with your business.
-                        </p>
+                        
                         <ProcessTechnology />
                         <h3 className="details_item_info_title">Services Outcome</h3>
                         <p className="mb-4">

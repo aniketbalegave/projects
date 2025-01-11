@@ -83,20 +83,18 @@ const ContactSection = (props) => {
                             <a 
                                 href="https://www.google.com/maps/search/?api=1&query=Near+Lagad+Transport,+Nanded+City,+Pune+411041" 
                                 target="" 
-                                rel="noopener noreferrer"
-                            >
-                            <div className="gmap_canvas ps-lg-5">
+                                rel="noopener noreferrer">
+                        <div className="gmap_canvas ps-lg-5">
                             <iframe
-        title="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.3686012301794!2d73.80772147540806!3d18.45684977475966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0ee94d1c2d7%3A0xf1ae6568a1d75fef!2sNear%20Lagad%20Transport%2C%20Nanded%20City%2C%20Pune%2C%20Maharashtra%20411041!5e0!3m2!1sen!2sin!4v1691234567890!5m2!1sen!2sin"
-        width="500"
-        height="400"
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-</div>
+                            title="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.3686012301794!2d73.80772147540806!3d18.45684977475966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0ee94d1c2d7%3A0xf1ae6568a1d75fef!2sNear%20Lagad%20Transport%2C%20Nanded%20City%2C%20Pune%2C%20Maharashtra%20411041!5e0!3m2!1sen!2sin!4v1691234567890!5m2!1sen!2sin"
+                            width="100%"
+                            height="400"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                                 </a>
 
                             </div>

@@ -17,7 +17,7 @@ import logo1 from '../../images/site_logo/logo-2.webp'
 import cases from '../../images/case/case_image_4.webp'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import MobileAppDevelopment from '../../main-component/ServiceSinglePage/MobileAppDevelopment';
-import WebDevelopment from '../../main-component/ServiceSinglePage/WebDevelopment';
+import WebDevelopment from '../../main-component/ServiceSinglePage/WebDevelopmentPage';
 import DigitalMarketing from '../../main-component/ServiceSinglePage/DigitalMarketing';
 import Seo from '../../main-component/ServiceSinglePage/Seo';
 import SoftwareMaintanence from '../../main-component/ServiceSinglePage/SoftwareMaintanence';
@@ -294,7 +294,7 @@ const Header2 = (props) => {
                                                                             <li>
                                                                                 <Link onClick={ClickHandler} to="/service-single/Mobile Application Developmenty">
                                                                                     <span className="icon_list_text">
-                                                                                        Mobile App Development
+                                                                                        Mobile Application Development
                                                                                     </span>
                                                                                 </Link>
                                                                             </li>
