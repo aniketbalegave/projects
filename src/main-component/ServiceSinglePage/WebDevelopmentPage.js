@@ -98,14 +98,7 @@ const WebDevelopment = (props) => {
                                             User Experience
                                         </span>
                                     </li>
-                                    <li>
-                                        <span className="icon_list_icon">
-                                            <img src={icon} alt="Check SVG Icon"/>
-                                        </span>
-                                        <span className="icon_list_text">
-                                            Security and Compliance
-                                        </span>
-                                    </li>
+
                                     <li>
                                         <span className="icon_list_icon">
                                             <img src={icon} alt="Check SVG Icon"/>

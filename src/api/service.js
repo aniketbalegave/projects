@@ -82,6 +82,7 @@ const Services = [
         col:'col-lg-4',
         description:'Embarking on a journey of higher education in a foreign country opens doors to...',
         mad:'In today’s competitive online landscape, digital marketing has become a necessity for businesses looking to expand their reach, engage with customers, and drive conversions. At our IT solution agency, we specialize in crafting innovative and result-driven digital marketing strategies tailored to your business needs. Whether you are a small startup or an established enterprise, our team of experts is committed to helping you achieve your marketing objectives and elevate your online presence.',
+        discovery:'SEO is the foundation of any successful digital marketing strategy. We optimize your website to rank higher on search engine result pages, drive organic traffic, and increase visibility for your business.',
     },
     {
         Id: '5',
@@ -136,7 +137,7 @@ const Services = [
         slug: 'Software Maintenance Services',
         features: ['Continuous Application Support', 'Technical Assistance and Troubleshooting', 'Upgrading and Enhancing Systems', 'Bug Tracking and Fixing Solutions','Performance Monitoring and Optimization'],
         description:'Visit new places to discover with a Tourist Visa. We deliver your documents ...',
-        mad: 'Software maintenance is a critical aspect of ensuring the longevity and optimal performance of your software solutions. At our agency, we specialize in providing reliable and efficient software maintenance services designed to keep your applications running smoothly, securely, and up to date. Whether you need bug fixes, performance enhancements, or updates to adapt to evolving business needs, our team ensures your software remains a valuable asset to your operations. We adopt a proactive approach to software maintenance, addressing issues before they impact your business. By leveraging the latest technologies and industry best practices, we deliver continuous improvements to keep your software aligned with your business goals and market trends.',
+        mad: 'We thoroughly analyze your software to identify bugs, performance bottlenecks, and areas needing improvement.',
         discovery:'We begin by thoroughly understanding your business requirements, goals, and challenges to craft a personalized software solution.',
         design:'Our team designs and develops custom software tailored to your unique needs, ensuring the highest standards of functionality and performance.',
         maintaine:'We offer ongoing support and maintenance to ensure your software stays up to date and continues to perform optimally.',

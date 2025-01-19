@@ -50,8 +50,8 @@ const FaqSection = (props) => {
                                     01. Discovery Phase
                                 </AccordionHeader>
                                 <AccordionBody accordionId="1" className='acc_body'>
-                                    <p className="m-0">
-                                        {serviceData.discovery}
+                                <p className="m-0">
+                                       { serviceData.discovery}
                                     </p>
                                 </AccordionBody>
                             </AccordionItem>

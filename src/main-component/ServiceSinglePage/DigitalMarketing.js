@@ -34,7 +34,7 @@ const DigitalMarketing = (props) => {
     return (
         <Fragment>
             <Header2 />
-            <main className="page_content service-single-page">
+            <main className="page_content ">
                 <PageTitle pageTitle="Digital Marketing" pagesub={'Details 😍'} pageTop={'Services'} />
                 <section className="service_details_section section_space bg-light">
                     <div className="container">
@@ -48,7 +48,7 @@ const DigitalMarketing = (props) => {
                         </div>
                         <h2 className="details_item_title">{serviceData.title}</h2>
                         <p align="justify">{serviceData.mad}</p>
-                        <ProcessTechnology />
+                        <ProcessTechnology/>
                         <h3 className="details_item_info_title">Services Outcome</h3>
                         <p className="mb-4">
                         Here are six key outcomes associated with our custom software development services, helping businesses drive innovation and success:
