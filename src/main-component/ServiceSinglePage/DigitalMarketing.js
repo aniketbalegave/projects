@@ -8,13 +8,13 @@ import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Footer from '../../components/footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
-import ProcessTechnology from '../../components/software-company-components/ProcessTechnology/ProcessTechnology';
+// import ProcessTechnology from '../../components/software-company-components/ProcessTechnology/ProcessTechnology';
 import srImg from '../../images/services/service_1.png'
 import srImg2 from '../../images/services/serive_2.png'
 import srImg3 from '../../images/services/service_3.png'
 import srImg4 from '../../images/services/service_4.png'
 import icon from '../../images/icons/icon_check_3.svg'
-import ServiceSection from '../../components/ServiceSection/ServiceSection';
+import FaqSection1 from '../../components/software-company-components/ProcessTechnology/FaqSection1';
 
 
 const DigitalMarketing = (props) => {
@@ -48,7 +48,7 @@ const DigitalMarketing = (props) => {
                         </div>
                         <h2 className="details_item_title">{serviceData.title}</h2>
                         <p align="justify">{serviceData.mad}</p>
-                        <ProcessTechnology/>
+                        <FaqSection1 />
                         <h3 className="details_item_info_title">Services Outcome</h3>
                         <p className="mb-4">
                         Here are six key outcomes associated with our custom software development services, helping businesses drive innovation and success:

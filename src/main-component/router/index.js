@@ -29,9 +29,9 @@ const AllRoute = () => {
           <Route path="team-single/:slug" element={<TeamSinglePage />} />
           <Route path="service" element={<ServicePage />} />
           <Route path="service-single/:slug" element={<SoftwareDevelopment />} />
-          <Route path="web-development/:slug" element={<WebDevelopment />} />
+          <Route path="service-single/web-development" element={<WebDevelopment />} />
 
-          <Route path="/Mobile Application Developmenty" element = {<MobileAppDevelopment />} />
+          <Route path="service-single/Mobile Application Developmenty" element = {<MobileAppDevelopment />} />
         
           <Route path="service-single/Digital Marketing" element = {<DigitalMarketing />} />
           <Route path="service-single/SEO Services" element = {<Seo />} />

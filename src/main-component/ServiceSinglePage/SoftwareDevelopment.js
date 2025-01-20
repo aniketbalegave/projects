@@ -13,6 +13,8 @@ import srImg2 from '../../images/services/serive_2.png';
 import srImg3 from '../../images/services/service_3.png';
 import srImg4 from '../../images/services/service_4.png';
 import icon from '../../images/icons/icon_check_3.svg';
+import FaqSection1 from '../../components/software-company-components/ProcessTechnology/FaqSection1';
+import FaqSection2 from '../../components/software-company-components/ProcessTechnology/FaqSection2';
 
 const SoftwareDevelopment = () => {
     const { slug } = useParams();
@@ -52,7 +54,14 @@ const SoftwareDevelopment = () => {
                         <h2 className="details_item_title">{serviceData.title}</h2>
                         <p align="justify">{serviceData.mad}</p>
 
-                        <ProcessTechnology />
+                        {decodeURIComponent(slug) !== "Digital Marketing" ? (
+                            <ProcessTechnology />
+                        ) : (
+                            <Fragment>
+                                <FaqSection1 />
+                                <FaqSection2 />
+                            </Fragment>
+                        )}
                         <h3 className="details_item_info_title">Services Outcome</h3>
                         <p className="mb-4">
                             Here are six key outcomes associated with our custom software development services, helping businesses drive innovation and success:
