@@ -15,6 +15,9 @@ import srImg4 from '../../images/services/service_4.png';
 import icon from '../../images/icons/icon_check_3.svg';
 import FaqSection1 from '../../components/software-company-components/ProcessTechnology/FaqSection1';
 import FaqSection2 from '../../components/software-company-components/ProcessTechnology/FaqSection2';
+import FaqSection3 from '../../components/software-company-components/ProcessTechnology/FaqSection3';
+import FaqSection4 from '../../components/software-company-components/ProcessTechnology/FaqSection4';
+import FaqSection5 from '../../components/software-company-components/ProcessTechnology/FaqSection5';
 
 const SoftwareDevelopment = () => {
     const { slug } = useParams();
@@ -54,15 +57,35 @@ const SoftwareDevelopment = () => {
                         <h2 className="details_item_title">{serviceData.title}</h2>
                         <p align="justify">{serviceData.mad}</p>
 
-                        {decodeURIComponent(slug) !== "Digital Marketing" ? (
-                            <ProcessTechnology />
-                        ) : (
+                        {(() => {
+                        if (decodeURIComponent(slug) === "Digital Marketing") {
+                        return (
+                        <Fragment>
+                            <FaqSection1 />
+                            <FaqSection2 />
+                        </Fragment>
+                        );
+                        } else if (decodeURIComponent(slug) === "SEO Services") {
+                        return (
+                        <Fragment>
+                            <FaqSection3 />
+                            <FaqSection4 />
+                        </Fragment>
+                        );
+                        } else if (decodeURIComponent(slug) === "Software Maintenance Services") {
+                            return (
                             <Fragment>
-                                <FaqSection1 />
-                                <FaqSection2 />
+                                <FaqSection5 />
                             </Fragment>
-                        )}
+                            );
+                        }
+                        else {
+                             return <ProcessTechnology />;
+                            }
+                        })()}
+
                         <h3 className="details_item_info_title">Services Outcome</h3>
+                        
                         <p className="mb-4">
                             Here are six key outcomes associated with our custom software development services, helping businesses drive innovation and success:
                         </p>

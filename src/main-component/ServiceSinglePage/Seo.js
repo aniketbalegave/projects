@@ -15,6 +15,7 @@ import srImg3 from '../../images/services/service_3.png'
 import srImg4 from '../../images/services/service_4.png'
 import icon from '../../images/icons/icon_check_3.svg'
 import ServiceSection from '../../components/ServiceSection/ServiceSection';
+import FaqSection3 from '../../components/software-company-components/ProcessTechnology/FaqSection3';
 
 
 const Seo = (props) => {
@@ -52,12 +53,13 @@ const Seo = (props) => {
 
                         </p>
                         
-                        <ProcessTechnology />
-                        <h3 className="details_item_info_title">Services Outcome</h3>
+                        <FaqSection3 />
+                        <h3 className="details_item_info_title">Get Started Today </h3>
                         <p className="mb-4">
-                        Here are six key outcomes associated with our custom software development services, helping businesses drive innovation and success:
+                        Ready to improve your website’s visibility and drive organic traffic? Contact us today to discuss how our SEO services can help you achieve your business objectives and boost your online presence. Let's work together to make your website stand out in search engine results!
+
                         </p>
-                        <div className="row mb-4">
+                        {/* <div className="row mb-4">
                             <div className="col-lg-6">
                                 <ul className="icon_list unordered_list_block">
                                     <li>
@@ -114,7 +116,7 @@ const Seo = (props) => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="details_item_image m-0">
