@@ -52,10 +52,10 @@ const PricingPage = (props) => {
                                     <div className="table_head">
                                         <div className="pricing_price_value bg-primary-subtle text-primary">
                                             <span className="pricing_monthly">
-                                                <del>$54</del> $48<small>.6</small> <sub>You'll Save <u>$5.4</u> Monthly</sub>
+                                                <del>₹54</del> ₹48<small>.6</small> <sub>You'll Save <u>₹5.4</u> Monthly</sub>
                                             </span>
                                             <span className="pricing_annually">
-                                                <del>$648</del> $453<small>.6</small> <sub>You'll Save <u>$194.4</u> Annually</sub>
+                                                <del>₹648</del> ₹453<small>.6</small> <sub>You'll Save <u>₹194.4</u> Annually</sub>
                                             </span>
                                         </div>
                                         <div className="pricing_block_title">
@@ -131,10 +131,10 @@ const PricingPage = (props) => {
                                     <div className="table_head">
                                         <div className="pricing_price_value bg-primary-subtle text-primary">
                                             <span className="pricing_monthly">
-                                                <del>$60</del> $54 <sub>You'll Save <u>$6</u> Monthly</sub>
+                                                <del>₹60</del> ₹54 <sub>You'll Save <u>₹6</u> Monthly</sub>
                                             </span>
                                             <span className="pricing_annually">
-                                                <del>$720</del> $504 <sub>You'll Save <u>$216</u> Annually</sub>
+                                                <del>₹720</del> ₹504 <sub>You'll Save <u>₹216</u> Annually</sub>
                                             </span>
                                         </div>
                                         <div className="pricing_block_title">

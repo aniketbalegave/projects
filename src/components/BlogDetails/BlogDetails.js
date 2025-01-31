@@ -383,13 +383,13 @@ const BlogSingle = (props) => {
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <label className="input_title" htmlFor="input_name">Full Name <sup className="text-primary">*</sup></label>
-                                            <input id="input_name" className="form-control" type="text" name="name" placeholder="Goladra Gomaz" required />
+                                            <input id="input_name" className="form-control" type="text" name="name" placeholder="Shree" required />
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group">
                                             <label className="input_title" htmlFor="input_email">Your Email <sup className="text-primary">*</sup></label>
-                                            <input id="input_email" className="form-control" type="email" name="email" placeholder="Techco@example.com" required />
+                                            <input id="input_email" className="form-control" type="email" name="email" placeholder="ShreeRevaTech@example.com" required />
                                         </div>
                                     </div>
                                     <div className="col-12">

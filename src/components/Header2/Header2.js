@@ -520,7 +520,7 @@ const Header2 = (props) => {
                                                     </ul>
                                                 </li>
                                                 <li><Link onClick={ClickHandler} to="/contact">Help Center</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/">Careers <small className="badge bg-danger-subtle text-danger">We’re Hiring</small></Link></li>
+                                                <li><Link onClick={ClickHandler} to="/">Careers <small className="badge bg-danger-subtle text-danger"></small></Link></li>
                                             </ul>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
