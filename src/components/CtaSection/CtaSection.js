@@ -24,6 +24,7 @@ const CtaSection = (props) => {
                     <span className="btn_icon">
                         <i className="fa-solid fa-arrow-up-right"></i>
                     </span>
+                    
                 </Link>
             </div>
         </section>
