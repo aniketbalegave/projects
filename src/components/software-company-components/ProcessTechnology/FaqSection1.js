@@ -6,7 +6,7 @@ import shape1 from '../../../images/shapes/shape_line_2.svg'
 import shape2 from '../../../images/shapes/shape_line_3.svg'
 import shape3 from '../../../images/shapes/shape_line_4.svg'
 import shape4 from '../../../images/shapes/shape_space_3.svg'
-import Services from 'd:/shreeRevaTech/projects/projects/src/api/service';
+import Services from '../../../api/service'
 
 import {
     Accordion,
